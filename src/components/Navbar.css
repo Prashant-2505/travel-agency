@@ -12,6 +12,7 @@
     left: 50%;
     transform: translate(-50%);
     z-index: 99999;
+    background-color: #fff;
 }
 
 .navbar-logo {
@@ -91,7 +92,7 @@ button:hover {
         height: auto;
         position: absolute;
         top: 0;
-        left: -100%;
+        left: -1100%;
         align-items: stretch;
         opacity: 1;
         padding: 80px 0 30px 0;

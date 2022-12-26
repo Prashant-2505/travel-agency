@@ -27,7 +27,7 @@ export default class Navbar extends Component {
                     {Menuitem.map((item, index) => {
                         return (
                             <li key={index}>
-                                <a className={item.cName} href={item.url}><ion-icon name={item.icon}></ion-icon>{item.title}</a>
+                                <Link className={item.cName} to={item.url}><ion-icon name={item.icon}></ion-icon>{item.title}</Link>
                             </li>
                         )
                     })}
