@@ -1,5 +1,7 @@
 
- 
+import Hero from '../components/Hero'
+import aboutImg from '../images/Hero2.jpg'
+import '../components/Hero.css'
 function Home() {
   return (
     <>
