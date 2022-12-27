@@ -4,7 +4,7 @@ import '../components/Hero.css'
 function Service() {
   return (
     <div>
-        <Hero cName='hero' 
+        <Hero cName='hero-mid' 
      heroImg={aboutImg}
       title="Service"
        text="Go Where You Want"

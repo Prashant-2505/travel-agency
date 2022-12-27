@@ -1,4 +1,4 @@
-.hero
+ .hero
 {
     width: 100%;
     height: 100vh;
@@ -9,6 +9,10 @@
     width: 100%;
     height: 70vh;
     position: relative;
+}
+.hero-mid h1
+{
+padding-top: 4rem !important;
 }
 .hero img{
     width: 100%;
@@ -55,4 +59,17 @@
     color: black;
     font-weight: 600;
     letter-spacing: 3px;
+}
+
+
+@media screen and (max-width: 555px){
+    .hero-text
+    {
+        padding: 10px 20px
+    }
+    .hero-text p
+    {
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
 }
