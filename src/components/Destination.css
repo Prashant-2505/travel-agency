@@ -1,6 +1,4 @@
-* {
-    text-align: center;
-}
+
 
 .destination {
     margin: 4rem 6rem;
@@ -8,6 +6,10 @@
 
 .destination h1 {
     font-size: 3rem;
+    text-align: center;
+}
+.destination p {
+    text-align: center;
 }
 
 .first-des {
